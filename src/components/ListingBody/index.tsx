@@ -1,10 +1,12 @@
 import './styles.css';
 import Filter from './Filter';
+import Listing from './Listing';
 
 export default function ListingBody() {
     return(
         <body>
             <Filter />
+            <Listing />
         </body>
     );
 }

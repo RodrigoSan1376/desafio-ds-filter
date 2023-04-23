@@ -1,0 +1,25 @@
+.ddf-listing-section {
+    height: 100%;
+    padding: 20px 20px 10px 20px;
+    background-color: var(--ddf-color-bg-tertiary);
+    border-radius: 5px;
+}
+
+.dff-listing-item {
+    height: 53px;
+    border: 1px solid var(--ddf-color-border-secondary);
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.ddf-item-name {
+    font-size: 12px;
+    color: var(--ddf-color-font-secondary);
+}
+
+.ddf-item-price {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--ddf-color-font-tertiary);
+}
