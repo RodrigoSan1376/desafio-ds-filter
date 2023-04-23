@@ -1,0 +1,22 @@
+header {
+    height: 70px;
+    background-color: var(--ddf-color-bg-primary);
+    color: var(--ddf-color-font-primary);
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 20px;
+}
+
+.ddf-header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ddf-header-products-quantity {
+    font-size: 12px;
+    font-weight: 700;
+}
