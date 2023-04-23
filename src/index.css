@@ -32,3 +32,11 @@ a, a:hover {
   max-width: 960px;
   margin: 0 auto;
 }
+
+.dff-pt20 {
+  padding-top: 20px;
+}
+
+.dff-pb20 {
+  padding-bottom: 20px;
+}

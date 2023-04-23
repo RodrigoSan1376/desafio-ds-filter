@@ -1,0 +1,38 @@
+.ddf-filter-section {
+    height: 200px;
+    background-color: var( --ddf-color-bg-tertiary);
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+}
+
+.ddf-filter-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.ddf-filter-form button {
+    height: 40px;
+    width: 200px;
+    background-color: var(--ddf-color-bg-primary);
+    border-radius: 5px;
+    border: none;   
+    color: var(--ddf-color-font-primary);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.ddf-filter-input {
+    height: 40px;
+    width: 200px;
+    padding: 10px;
+    border: 1px solid var(--ddf-color-border-primary);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+.ddf-filter-input::placeholder {
+    color: var(--ddf-color-placeholder);
+    font-size: 16px;
+}
